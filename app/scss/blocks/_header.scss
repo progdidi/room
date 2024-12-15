@@ -1,0 +1,47 @@
+.header {
+    min-height: 100vh;
+    .header__inner {
+        padding: 40px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 12px;
+        line-height: 120%;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        border-bottom: 1px solid #e0e0e0;
+        .menu {
+            .menu-list {
+                display: flex;
+                align-items: center;
+                gap: 100px;
+            }
+            .menu-list__item {
+            }
+        }
+        
+        .header__buttons {
+            display: flex;
+            align-items: center;
+            gap: 47px;
+            .header__link {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                
+            }
+            .header__btn {
+            }
+        }
+        
+    }
+    
+    .header__promo {
+        padding-top: 49px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
