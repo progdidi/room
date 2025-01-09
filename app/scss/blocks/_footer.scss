@@ -2,4 +2,92 @@
     background-color: var(--black-color);
     padding-top: 97px;
     padding-bottom: 51px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #fff;
+    &__inner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0 55px;
+        .footer-menu {
+            display: grid;
+            grid-template-columns: repeat(2, 170px);
+            grid-row-gap: 20px;
+            .footer-menu__list {
+                &-item {
+                    margin-bottom: 4px;
+                }
+            }
+        }
+
+        .footer-menu__list-title {
+            margin-bottom: 17px;
+        }
+        
+        .social {
+            .social-list {
+                display: flex;
+                align-items: center;
+                gap: 13px;
+                &__item {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+        
+        .footer-form {
+            max-width: 327px;
+            &__text {
+                margin-bottom: 30px;
+            }
+            &__input {
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                border-radius: 3px;
+                background-color: transparent;
+                padding: 5px 10px;
+                color: #fff;
+                width: 100%;
+                height: 54px;
+            }
+            .footer-form__select {
+                margin-top: 16px;
+                display: block;
+                margin-left: auto;
+                line-height: 150%;
+                color: rgba(255, 255, 255, 0.5);
+                margin-bottom: 56px;
+            }
+            .footer-form__check-label {
+                display: block;
+                font-size: 11px;
+                letter-spacing: 0.22em;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.5);
+                margin-bottom: 60px;
+            }
+            .footer-form__btn {
+                display: block;
+                margin-left: auto;
+                line-height: 429%;
+                letter-spacing: 0.16em;
+                text-transform: uppercase;
+                text-align: right;
+                border: none;
+                background-color: transparent;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+
+
+
+.return-btn {
+
+    color: #fff;
 }
