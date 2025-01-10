@@ -1,0 +1,40 @@
+.about {
+    padding: 240px 0;
+    margin-bottom: 48px;
+    .about__text {
+        font-size: 46px;
+        line-height: 113%;
+        max-width: 882px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        &.bold {
+            font-size: 46px;
+            line-height: 113%;
+            color: #000;
+            margin-bottom: 135px;
+        }
+    }
+   
+    .about-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 64px;
+        &__info {
+            max-width: 311px;
+            &-title {
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 112%;
+                color: #1a1a1a;
+                margin-bottom: 27px;
+            }
+            &-text {
+                font-size: 16px;
+                line-height: 150%;
+            }
+        }
+        
+    }
+    
+}
