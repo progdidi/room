@@ -1,5 +1,6 @@
 .header {
     min-height: 100vh;
+    margin-bottom: 208px;
     .header__inner {
         padding: 40px 0;
         display: flex;
@@ -39,9 +40,33 @@
     }
     
     .header__promo {
-        padding-top: 49px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        &__img {
+            padding-top: 49px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 82px;
+        }
+        
+        .promo-text {
+            display: flex;
+            padding: 80px 85px 0 55px;
+            justify-content: space-between;
+            align-items: center;
+            &__title {
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 121%;
+                color: #1a1a1a;
+                max-width: 355px;
+
+            }
+
+            &__info {
+                max-width: 569px;
+
+
+            }
+        }
     }
 }
